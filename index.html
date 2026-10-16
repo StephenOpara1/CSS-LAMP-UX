@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Input</title>
+    <link href="./style.css" rel="stylesheet"/>
+</head>
+<body style="color: white;">    
+    <div style="display: flex; flex-direction: row; position: fixed; top: 0; left: 0; width: 100vw;">
+        <div id="wall" style="width: 100%; height: 100vh; background-color: black; border-right: 1px solid rgb(255, 255, 0); position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 30px;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 160px; height: 110px; position: relative; display: flex; flex-direction: column; align-items: center;">
+                    <div id="shadow2" style="position: absolute; bottom: 0; height: 50%; width: 100%; box-shadow: 0px 0px 80px transparent;"></div>
+                    <div id="shadow1" style="position: relative; top: 0; height: 50%; width: 50%; box-shadow: 0px 0px 80px transparent;"></div>
+                    <div id="bulb1" style="width: 50%; height: 100%; background-color: rgb(131, 131, 102); border-radius: 10px; transform: skewX(20deg); position: absolute; right: 0;"></div>
+                    <div id="bulb2" style="width: 50%; height: 100%; background-color: rgb(131, 131, 102); border-radius: 10px; transform: skewX(-20deg); position: absolute; left: 0;"></div>
+                    <div id="bulb3" style="width: 100%; height: 50%; background-color: rgb(131, 131, 102); border-radius: 10px; position: absolute; bottom: 0; "></div>                    
+                </div>
+                <div style="height: 300px; width: 20px; background: #2c1e00; box-shadow: 0 0 40px black;  position: relative; overflow: visible;">
+                    <div style="height: 300px; width: 7px; background: #503701; position: absolute; left: 3px;"></div>
+                    <div id="rope" style="height: 100px; width: 4px; background: #818080; position: absolute; left: 50px; border: 1px solid black;"><div  id="knob" style="height: 20px; width: 20px; background: rgb(26, 26, 26); border-radius: 50%; position: relative; top: 90px; left: -9px; border: 2px solid rgb(133, 133, 133)"></div></div>
+                </div>
+                <div style="height: 20px; width: 160px; background: #161616; border-radius: 20px; box-shadow: 0 0 40px black;  position: relative; overflow: hidden;">
+                    <div style="height: 5px; width: 170px; background: #313131; border-radius: 20px;  position: relative; top: 11px;"></div>
+                </div>
+            </div>            
+        </div>
+        <div id="wall2" style="height: 100vh; position: absolute; color: rgb(24, 24, 24); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: -1; right: 0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <span style="font-size: 70px; margin-right: 200px;">Morning News 🌞</span>
+            <span style="font-size: 50px; color: #00470a;">Antartica is Melting</span>
+            <span style="font-size: 50px;margin-right: 250px; color: #00470a;">Scientists warn!</span>
+            <p style="font-size: 20px; width: 600px; margin-right: 100px;">"The stars in the heavens await you so far as you keep your goood wills. I honestly have no idea what I'm writing the truth is that i barely know more than two bible verses and no I'm not ashamed of it at all. Well, if you read this send me a message. I have a secret I can share. Just kidding, but seriously I don't think anyone will read this."</p>
+            <p style="font-size: 20px; width: 600px; margin-right: 100px; margin-top: -5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"The stars in the heavens await you so far as you keep your goood wills. I honestly have no idea what I'm writing the truth is that i barely know more than two bible verses and no I'm not ashamed of it at all so yeah bye.</p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
